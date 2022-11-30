@@ -1,0 +1,6 @@
+# in build folder run:
+cmake ../mython
+cmake --build . --verbose
+
+# Then go to folder build/Debug/ and run:
+Mython test.my test_out.txt

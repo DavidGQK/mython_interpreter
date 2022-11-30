@@ -1,0 +1,2 @@
+# terminal
+Mython test.my test_out.txt

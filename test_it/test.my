@@ -1,0 +1,106 @@
+# Example of Classes
+class Multiplication:
+  def __init__(w, h):
+    self.w = w
+    self.h = h
+
+  def area():
+    return self.w * self.h
+
+x = Multiplication(10, 5)
+print "Example of Classes"
+print x.area()
+print
+
+# Example of Basic opeations
+print "Example of Basic opeations"
+print "10 + 5 =", 10 + 5
+print "10 - 5 =", 10 - 5
+print "10 * 5 =", 10 * 5
+print "10 / 5 =", 10 / 5
+print "(10 + 5) * 5 =", (10 + 5) * 5
+
+Variable = True
+print "Variable = True"
+print "Variable == True =", Variable == True
+print "10 > 5 ==", 10 > 5
+print "10 >= 5 ==", 10 >= 5
+print
+
+# Operations with strings
+print "Operations with strings"
+print "hi " + "mom!"
+print
+
+
+# Inheritance
+class Shape:
+  def __str__():
+    return "Shape"
+
+  def area():
+    return "Not implemented"
+
+class Rect(Shape):
+  def __init__(w, h):
+    self.w = w
+    self.h = h
+
+  def __str__():
+    return "Rect(" + str(self.w) + "x" + str(self.h) + ")"
+
+  def area():
+    return self.w * self.h
+
+print "Example of Inheritance"
+r = Rect(10, 5)
+print r
+print
+
+# Methods
+class Factorial:
+  def calc(n):
+    if n == 0:
+      return 1
+    return n * self.calc(n - 1)
+
+print "Example of Methods"
+fact = Factorial()
+print fact.calc(4)
+print
+
+# Assignment semantics
+class Counter:
+  def __init__():
+    self.value = 0
+
+  def add():
+    self.value = self.value + 5
+
+print "Example of Assignment semantics"
+x = Counter()
+y = x
+x.add()
+y.add()
+print x.value
+print
+
+# If condition
+class Comparator:
+  def __init__(a, b):
+    self.val_1 = a
+    self.val_2 = b
+
+  def compare_equality():
+    if self.val_1 == self.val_2:
+      return True
+    else:
+      return False
+
+
+print "Example Of If logic"
+comparator_1 = Comparator(10, 10)
+print comparator_1.compare_equality()
+
+comparator_2 = Comparator(10, 500)
+print comparator_2.compare_equality()
